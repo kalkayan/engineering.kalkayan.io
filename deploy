@@ -1,0 +1,14 @@
+#!/bin/zsh
+
+cd exampleSite
+hugo --themesDir ../..
+
+rm -rf ../docs
+cp -r public ../docs
+
+cd ../
+
+git status
+git add .
+git commit -m 'deploying'
+git push origin main

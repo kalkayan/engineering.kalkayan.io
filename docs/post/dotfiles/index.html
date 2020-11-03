@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en" data-theme=""><head>
+    <title> Manish Sahani | Hades&#39;s Dotfiles </title>
+
+    
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.76.5" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="description" content="Software Engineer">
+    
+    <link rel="stylesheet"
+          href="https://kalkayan.github.io/css/style.min.318dad441bf65541b108d3a473adc08e17be441f025fe2d8af0e5a81f2504db9.css"
+          integrity="sha256-MY2tRBv2VUGxCNOkc63Ajhe&#43;RB8CX&#43;LYrw5agfJQTbk="
+          crossorigin="anonymous"
+          type="text/css"><link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
+    crossorigin="anonymous" />
+
+    
+    <link rel="shortcut icon" href="https://kalkayan.github.io/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://kalkayan.github.io/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://kalkayan.github.io/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://kalkayan.github.io/favicons/favicon-16x16.png">
+
+    <link rel="canonical" href="https://kalkayan.github.io/post/dotfiles/">
+
+    
+    
+    
+    
+    <script type="text/javascript"
+            src="https://kalkayan.github.io/js/anatole-header.min.e782db136ec18d105a4552702eac49f4620d6867da3fbf808bd53e806c96be6e.js"
+            integrity="sha256-54LbE27BjRBaRVJwLqxJ9GINaGfaP7&#43;Ai9U&#43;gGyWvm4="
+            crossorigin="anonymous"></script>
+    <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://kalkayan.github.io/images/site-feature-image.png"/>
+
+<meta name="twitter:title" content="Hades&#39;s Dotfiles"/>
+<meta name="twitter:description" content="Many nights of potential productive work programmers have lost by procrastinating on configuring their dotfiles."/>
+
+</head>
+<body><div class="sidebar animated fadeInDown">
+    <div class="logo-title">
+        <div class="title">
+            <img src="https://kalkayan.github.io/images/profile.jpg" alt="profile picture">
+            <h3 title=""><a class="title" href="/">kalkayan</a></h3>
+            <div class="description">
+                <p>Software Engineer</p>
+            </div>
+        </div>
+    </div>
+    <ul class="social-links">
+        
+            <li>
+                <a href="http://bit.ly/to-lnkd" rel="me" aria-label="Linkedin">
+                    <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+            <li>
+                <a href="http://bit.ly/to-gh" rel="me" aria-label="GitHub">
+                    <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+            <li>
+                <a href="https://www.instagram.com/manishsahani__/" rel="me" aria-label="instagram">
+                    <i class="fab fa-instagram fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+            <li>
+                <a href="mailto:rec.manish.sahani@gmail.com" rel="me" aria-label="e-mail">
+                    <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+    </ul>
+    <div class="footer">
+        <div class="by_farbox">&copy; Manish Sahani 2020 </div>
+    </div>
+</div>
+<div class="main">
+    <div class="page-top animated fadeInDown">
+    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+    </a>
+    <ul class="nav" id="navMenu">
+        
+        
+            
+            <li><a 
+                   href="/"
+                        
+                   title="">Home</a></li>
+        
+            
+            <li><a 
+                   href="/post/"
+                        
+                   title="">Posts</a></li>
+        
+            
+            <li><a 
+                   href="/about/"
+                        
+                   title="">About Me</a></li>
+        
+        
+        <li class="theme-switch-item">
+            <a class="theme-switch" title="Switch Theme">
+                <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+    <div class="autopagerize_page_element">
+        <div class="content">
+    <div class="post animated fadeInDown">
+        <div class="post-content">
+
+            <div class="post-title">
+                <h1 class="title">Hades&#39;s Dotfiles</h1>
+                
+                    <div class="info">
+                        <em class="fa fa-sun-o"></em>
+                        <span class="pg-single date"><small>Mon, Mar 11, 2019</small></span>
+                        <em class="fa fa-clock-o"></em>
+                        <span class="reading-time">4-minute read</span>
+                    </div>
+                
+            </div>
+
+            <p>Many nights of potential productive work programmers have lost by procrastinating on configuring their dotfiles. These simple invisible files may seem pointless for a novice, but they become a swiss army knife if properly configured. I recently came across an elegant approach to manage these dotfiles with no extra tooling, no symlinks, just a bare git repo.</p>
+<p><img src="https://raw.githubusercontent.com/kalkayan/dotfiles/main/static/banner.jpg" alt="banner.jpe"></p>
+<h3 id="hadess-dotfiles">Hades&rsquo;s Dotfiles</h3>
+<p>There is something fascinating about customizing your operating system through dotfiles, and there are tons of articles on what you can do with these dotfiles. This repository is the collection of configurations that I learned over time and still use for my daily work. I primarily use a 13' Macbook pro (named hades) for coding; therefore, this repository mainly applies to macOS, but Improvements or contributions are more than welcome.</p>
+<p>Feel free to reach me out at <a href="mailto:rec.manish.sahani@gmail.com">rec.manish.sahani@gmail.com</a> or connect with me on <a href="https://www.linkedin.com/in/manishsahani">LinkedIn</a>.</p>
+<h3 id="to-start-using-these-dotfiles">To start using these dotfiles</h3>
+<p>If you want to give this a try, first fork the repository, <strong>review the files and code</strong>, and <strong>remove code that you don&rsquo;t need</strong>.</p>
+<!-- raw HTML omitted -->
+<blockquote>
+<p>⚠️ Don&rsquo;t blindly use these settings unless you know what that entails.</p>
+</blockquote>
+<p>This repository container a bash script (<code>setup</code>) to automate the installation of all the binaries and brew casks; not only this but the repository also act as a dotfiles manager if followed the instructions below.</p>
+<h4 id="managing--tracking-dotfiles">Managing &amp; tracking [dot]files</h4>
+<p>The trick to managing these dotfiles is by creating a <a href="https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-init">bare</a> git repository. To use this repository, clone this with <code>--bare</code> option and source the <code>.zshrc</code>, run the following command in the terminal:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># after forking replace the &lt;username&gt; with your github handle</span>
+git clone --bare https://github.com/&lt;username&gt;/dotfiles.git $HOME/.dotfiles
+</code></pre></div><p>Bare repository are special in a way that they omit working directory, therefore to use a bare repository, first we need to define the following.</p>
+<ul>
+<li><code>--work-tree</code> - this can be your home directory, i.e., <code>$HOME</code> or <code>~</code>)</li>
+<li><code>--git-dir</code> - where the repository is cloned - <code>$HOME/.dotfiles</code></li>
+</ul>
+<p>Therefore the command to use the repository will have a prefix <code>git --git-dir=$HOME/.dotfiles --work-tree=$HOME </code>, for ex -</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># example - to check the logs </span>
+git --git-dir<span style="color:#f92672">=</span>$HOME/.dotfiles --work-tree<span style="color:#f92672">=</span>$HOME log
+</code></pre></div><p>For our convenience we can create an alias for this command, stick the following line (if not already present) in <code>.aliases</code> or <code>.zshrc</code>.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">alias dotfiles<span style="color:#f92672">=</span><span style="color:#960050;background-color:#1e0010">&#39;</span>/usr/bin/git --git-dir<span style="color:#f92672">=</span>$HOME/.dotfiles/ --work-tree<span style="color:#f92672">=</span>$HOME
+</code></pre></div><p>At this point, all your configuration files are being tracked, and we can easily use the newly registered <code>dotfiles</code> command to manage the repository, ex :-</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># to check the status of the tracked and untracked files </span>
+dotfiles status
+
+<span style="color:#75715e"># to add a file </span>
+dotfiles commit .tmux.conf -m <span style="color:#e6db74">&#34;.tmux.conf added&#34;</span>
+
+<span style="color:#75715e"># push new files or changes to the github</span>
+dotfiles push origin main
+</code></pre></div><blockquote>
+<p>⚠️ The <code>dotfiles status</code> will show all the untracked files to disable this behavior, do the following</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># to remove the untracked directories and files from the listing</span>
+dotfiles config --local status.showUntrackedFiles no 
+</code></pre></div><p><strong>The great things about managing dotfiles with a git repo are</strong></p>
+<ul>
+<li>no prerequisite - only <code>git</code></li>
+<li>we can have multiple versions of our configs using <code>git commits/tags</code></li>
+<li>we can also create profiles with <code>git branch</code>.</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># Manage multiple profiles - check out to the work profile </span>
+dotfiles checkout work <span style="color:#75715e"># or any other branch name</span>
+</code></pre></div><p>Recommended Reading: <a href="https://www.atlassian.com/git/tutorials/dotfiles">The best way to store your dotfiles: A bare Git repository </a></p>
+<h4 id="automated-installation">Automated installation</h4>
+<p>The installation of apps, libraries, and other tools are automated, open the <code>setup</code> file and update the following code according to your needs.</p>
+<blockquote>
+<p>if you are on other platforms then macOS, you can create similar <code>bash</code>/<code>batch</code> files and make use of <code>apt-get</code> or <code>winget</code></p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># Brew casks and binaries that you need</span>
+bins <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>
+    <span style="color:#e6db74">&#34;nvm&#34;</span>
+    <span style="color:#e6db74">&#34;php@7.4&#34;</span>
+    <span style="color:#e6db74">&#34;composer&#34;</span>
+    <span style="color:#75715e"># more valid brew formula here</span>
+<span style="color:#f92672">)</span>
+
+casks<span style="color:#f92672">=(</span>
+    <span style="color:#e6db74">&#34;slack&#34;</span>
+    <span style="color:#e6db74">&#34;postman&#34;</span>
+    <span style="color:#75715e"># add brew casks that you need </span>
+<span style="color:#f92672">)</span>
+</code></pre></div><blockquote>
+<p>❗ you may need to add some post-installation code in the later part of scripts. Please see the library installation page for the steps</p>
+</blockquote>
+<p>After updating the <code>setup</code> file, just run the file in the terminal to install:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">./setup
+</code></pre></div><p>🍷 Voila! you are all set (in what 5 mins? cool isn&rsquo;t it?), Just to show you the gist of what the terminal looks</p>
+<p><img src="/static/terminal.png" alt="terminal.png"></p>
+<h3 id="to-start-contributing-to-dotfiles">To start contributing to dotfiles</h3>
+<p>Suggestions / Improvements or any other helpful trick is always welcome, Please raise a PR with some context or any helpful links.</p>
+
+        </div>
+        <div class="post-footer">
+            <div class="info">
+                <span class="separator"><a class="category" href="/categories/themes/">themes</a><a class="category" href="/categories/syntax/">syntax</a></span>
+
+                <span class="separator"><a class="tag" href="/tags/markdown/">markdown</a><a class="tag" href="/tags/css/">css</a><a class="tag" href="/tags/html/">html</a></span>
+
+            </div>
+        </div>
+
+        
+            
+        
+    </div>
+
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript"
+        src="https://kalkayan.github.io/js/jquery.min.86b1e8f819ee2d9099a783e50b49dff24282545fc40773861f9126b921532e4c.js"
+        integrity="sha256-hrHo&#43;BnuLZCZp4PlC0nf8kKCVF/EB3OGH5EmuSFTLkw="
+        crossorigin="anonymous"></script>
+
+
+
+
+<script type="text/javascript"
+        src="https://kalkayan.github.io/js/bundle.min.0f9c74cb78f13d1f15f33daff4037c70354f98acfbb97a6f61708966675c3cae.js"
+        integrity="sha256-D5x0y3jxPR8V8z2v9AN8cDVPmKz7uXpvYXCJZmdcPK4="
+        crossorigin="anonymous"></script>
+
+<script type="text/javascript"
+        src="https://kalkayan.github.io/js/medium-zoom.min.92f21c856129f84aeb719459b3e6ac621a3032fd7b180a18c04e1d12083f8aba.js"
+        integrity="sha256-kvIchWEp&#43;ErrcZRZs&#43;asYhowMv17GAoYwE4dEgg/iro="
+        crossorigin="anonymous"></script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-SXEKTQT09G', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+</body>
+
+</html>

@@ -1,7 +1,7 @@
 baseURL = "https://kalkayan.github.io"
 languageCode = "en"
 DefaultContentLanguage = "en"
-title = "Website of Jane Doe"
+title = "Website of Manish Sahani"
 theme = "anatole"
 summarylength = 10
 enableEmoji = true
@@ -11,11 +11,11 @@ enableRobotsTXT = true
 #disqusShortname = ""
 
 # Google Analytics
-#googleAnalytics = "UA-123-45"
+googleAnalytics = "G-SXEKTQT09G"
 
 [params]
 title = "kalkayan"
-author = "Jane Doe"
+author = "Manish Sahani"
 description = "Software Engineer"
 profilePicture = "images/profile.jpg"
 keywords = ""
@@ -37,22 +37,22 @@ use = "katex"  # options: "katex", "mathjax". default is "katex".
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
 title = "Linkedin"
-url = "https://de.linkedin.com/"
+url = "http://bit.ly/to-lnkd"
 
 [[params.socialIcons]]
 icon = "fab fa-github"
 title = "GitHub"
-url = "https://github.com/lxndrblz/anatole/"
+url = "http://bit.ly/to-gh"
 
 [[params.socialIcons]]
 icon = "fab fa-instagram"
 title = "instagram"
-url = "https://www.instagram.com/"
+url = "https://www.instagram.com/manishsahani__/"
 
 [[params.socialIcons]]
 icon = "fas fa-envelope"
 title = "e-mail"
-url = "mailto:mail@alexbilz.com"
+url = "mailto:rec.manish.sahani@gmail.com"
 
 ## Menu items
 
@@ -71,7 +71,7 @@ url = "mailto:mail@alexbilz.com"
   url = "/post/"
 
   [[menu.main]]
-  name = "About"
+  name = "About Me"
   weight = 300
   identifier = "about"
   url = "/about/"
