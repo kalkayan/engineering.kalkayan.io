@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://kalkayan.github.io/sitemap.xml
