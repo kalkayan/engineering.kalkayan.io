@@ -1,5 +1,5 @@
 baseURL: "https://kalkayan.github.io"
-title: kalkayan
+title: Manish Sahani
 paginate: 5
 theme: hugo-PaperMod
 
@@ -8,7 +8,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: UA-123-45
+googleAnalytics: G-SXEKTQT09G
 
 minify:
   disableXML: true
@@ -16,9 +16,11 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  author: Me
+  title: Manish Sahani
+  description: >
+    Manish's protfolio and writings on experiences from working at adobe, 
+    cncf and grorapid.
+  author: Manish Sahani
   # author: ["Me", "You"] # multiple authors
 
   images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -45,8 +47,8 @@ params:
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: ExampleSite
-    # imageUrl: '<img location>'
+    title: Hi, I'm Manish Sahani
+    # imageUrl: https://avatars0.githubusercontent.com/u/73003119?s=460&u=7fcec3d2195df48bac555e45ce1a27ef202b41bd&v=4
     # imageTitle: my image
     buttons:
       - name: Posts
@@ -58,10 +60,10 @@ params:
   homeInfoParams:
     Title: "Hi, I'm Manish"
     Content: >
-      This website is the sum of my experiences. So far, It includes
-      lessons for preparing and crashing coding interviews, learning 
-      from my past internships at [@adobe](), [@cncf](), [@grorapid]() and most
-      importantly about system design and web servers.
+      This website is the sum of my experiences. So far, It includes tips on
+      preparation for coding interviews and how to crash them, learnings from
+      my past internships at [@adobe](), [@cncf](), [@grorapid](), and most
+      importantly, about system design and web servers.
 
   socialIcons:
     # - name: twitter
@@ -72,7 +74,7 @@ params:
       url: "http://bit.ly/to-gh"
     - name: linkedin
       url: "http://bit.ly/to-lnkd"
-    - name: gmail
+    - name: email
       url: "mailto:rec.manish.sahani@gmail.com"
 
   analytics:
@@ -82,9 +84,13 @@ params:
 menu:
   main:
     - identifier: categories
-      name: categories
+      name: Categories
       url: /categories/
       weight: 10
+    - name: Posts
+      url: /posts/
+      weight: 10
+
     # - identifier: tags
     #   name: tags
     #   url: /tags/
