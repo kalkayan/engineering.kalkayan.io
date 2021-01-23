@@ -1,7 +1,7 @@
 baseURL: "https://kalkayan.github.io"
 title: Manish Sahani
 paginate: 5
-theme: hugo-PaperMod
+theme: kalkayan.paper
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -90,6 +90,10 @@ params:
 
 menu:
   main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
     - identifier: categories
       name: Categories
       url: /categories/
@@ -97,10 +101,13 @@ menu:
     - name: Posts
       url: /posts/
       weight: 10
-
     # - identifier: tags
     #   name: tags
     #   url: /tags/
+    #   weight: 20
+    # - identifier: terms
+    #   name: terms
+    #   url: /terms/
     #   weight: 20
     # - identifier: example
     #   name: example.org

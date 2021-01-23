@@ -3,11 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://kalkayan.github.io/about/</loc>
+  </url>
+  
+  <url>
     <loc>https://kalkayan.github.io/posts/automated-setup/</loc>
   </url>
   
   <url>
     <loc>https://kalkayan.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kalkayan.github.io/posts/designing-dtutimes/</loc>
   </url>
   
   <url>
@@ -19,11 +27,23 @@
   </url>
   
   <url>
-    <loc>https://kalkayan.github.io/posts/tooling/</loc>
+    <loc>https://kalkayan.github.io/posts/tooling-with-dotfiles/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kalkayan.github.io/tags/php/</loc>
   </url>
   
   <url>
     <loc>https://kalkayan.github.io/posts/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kalkayan.github.io/tags/react/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kalkayan.github.io/tags/system-design/</loc>
   </url>
   
   <url>
