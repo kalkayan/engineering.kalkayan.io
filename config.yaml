@@ -41,7 +41,7 @@ params:
 
   label:
     text: "kalkayan"
-    # icon: /apple-touch-icon.png
+    # icon: /kalkayan.png
     # iconHeight: 35
 
   # profile-mode
@@ -58,12 +58,19 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi, I'm Manish"
+    #Title: "How are you gonna be a revolutionary if you're such a traditionalist?"
+    Title: "The Experiences to remember"
     Content: >
-      This website is the sum of my experiences. So far, It includes tips on
-      preparation for coding interviews and how to crash them, learnings from
-      my past internships at [@adobe](), [@cncf](), [@grorapid](), and most
-      importantly, about system design and web servers.
+      **Hi, I'm Manish**, This website is the sum of my experiences. 
+      So far, It includes great things I learned while making software, breaking software,
+      and making software to break softwares. 
+
+      
+
+      I have interned at 
+      [@adobe](https://www.adobe.com/), [@cncf (under kubernetes)](https://www.cncf.io/),
+      and [@grorapid](https://www.grorapid.com/). Besides this, I'm an active contributor 
+      to may live opensource projects - [Read more about me]().
 
   socialIcons:
     # - name: twitter

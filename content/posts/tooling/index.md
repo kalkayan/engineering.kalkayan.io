@@ -1,12 +1,13 @@
 ---
 author: Manish Sahani
-title: "Tooling is hard and necessary"
+title: "Necessay tooling made easy with .files"
 ---
 
-![banner](images/banner.jpg)
 
  
 Something is fascinating about customizing your operating system through dotfiles, and there are tons of articles out there on what you can do with these dotfiles. These simple invisible files may seem pointless for a novice, but they become a swiss army knife if properly configured.
+
+![banner](images/banner.jpg)
 
 In this article we'll discuss configuring these files and the best way to manage them for multiple devices.
 

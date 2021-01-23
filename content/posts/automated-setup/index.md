@@ -1,6 +1,6 @@
 ---
 author: Manish Sahani
-title: "Automate the development environment"
+title: "Automate the setup of your development machine"
 tocopen: false 
 tags: ["draft"]
 ---
