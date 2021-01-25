@@ -11,7 +11,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kalkayan.github.io/posts/designing-elekto/</guid>
-      <description>The Elekto Project develops Elekto, simple software for secure online elections. Elekto was created as part of an LFX internship for the Kubernetes project under the guidance of Josh Berkus, Marky Jackson, Sergey Kanzhelev, and is now a CNCF infrastructure project.</description>
+      <description>The Elekto Project develops Elekto, simple software for secure online elections. Elekto was created as part of an LFX internship for the Kubernetes project under the guidance of Josh Berkus, Marky Jackson, Sergey Kanzhelev, and is now a CNCF infrastructure project.
+The general idea of the application is shown below. A seperate repository - k8s.elections.meta is maintained to keep track of all the meta files (.yaml) for elections, this repository serves as the single source of truth for the application&amp;rsquo;s operation which is operated by gitops model.</description>
     </item>
     
     <item>
